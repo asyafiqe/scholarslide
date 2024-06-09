@@ -1,6 +1,8 @@
 # ScholarSlide
 ## _Turn scientific paper into presentations, effortlessly._
 
+![screenshot](images/screenshot_01.png)
+
 Tired of spending hours summarizing research papers and creating slides? 
 **ScholarSlide** uses AI to transform any scientific PDF into a clear and simple PowerPoint presentation. Simply upload your PDF, and ScholarSlide will automatically generate explanatory slides, ready for your next presentation.
 
