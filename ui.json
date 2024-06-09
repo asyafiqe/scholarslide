@@ -1,0 +1,477 @@
+{
+    "metadata": {
+        "streamsync_version": "0.5.0"
+    },
+    "components": {
+        "root": {
+            "id": "root",
+            "type": "root",
+            "content": {
+                "appName": "My App"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "c0f99a9e-5004-4e75-a6c6-36f17490b134": {
+            "id": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "type": "page",
+            "content": {
+                "pageMode": "compact"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "root",
+            "handlers": {},
+            "visible": true
+        },
+        "bebc5fe9-63a7-46a7-b0fa-62303555cfaf": {
+            "id": "bebc5fe9-63a7-46a7-b0fa-62303555cfaf",
+            "type": "header",
+            "content": {
+                "text": "@{my_app.title}",
+                "emptinessColor": "#ffffff"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "handlers": {}
+        },
+        "pb3agy6szfxn7mbx": {
+            "id": "pb3agy6szfxn7mbx",
+            "type": "separator",
+            "content": {},
+            "isCodeManaged": false,
+            "position": 1,
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "handlers": {},
+            "visible": true
+        },
+        "hds43gunbo9e4ty6": {
+            "id": "hds43gunbo9e4ty6",
+            "type": "horizontalstack",
+            "content": {
+                "contentHAlign": "start"
+            },
+            "isCodeManaged": false,
+            "position": 2,
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "handlers": {},
+            "visible": true
+        },
+        "nuj4vpqz4q29bp97": {
+            "id": "nuj4vpqz4q29bp97",
+            "type": "horizontalstack",
+            "content": {
+                "contentHAlign": "center"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "bebc5fe9-63a7-46a7-b0fa-62303555cfaf",
+            "handlers": {},
+            "visible": true
+        },
+        "znnj7bsm71ozxnva": {
+            "id": "znnj7bsm71ozxnva",
+            "type": "text",
+            "content": {
+                "text": "# Turn scientific paper into presentations, effortlessly\n\n",
+                "alignment": "center",
+                "cssClasses": "",
+                "useMarkdown": "yes"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "nuj4vpqz4q29bp97",
+            "handlers": {},
+            "visible": true
+        },
+        "a9zoj3hn1r9q7k5k": {
+            "id": "a9zoj3hn1r9q7k5k",
+            "type": "button",
+            "content": {
+                "text": "Download Slides"
+            },
+            "isCodeManaged": false,
+            "position": 1,
+            "parentId": "kdox4wrrtt1mk4v2",
+            "handlers": {
+                "ss-click": "handle_file_download"
+            },
+            "visible": "pptx_ready"
+        },
+        "jx4spl27c44fer7z": {
+            "id": "jx4spl27c44fer7z",
+            "type": "separator",
+            "content": {},
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "hds43gunbo9e4ty6",
+            "handlers": {},
+            "visible": true
+        },
+        "sysxa0io5hwezgcv": {
+            "id": "sysxa0io5hwezgcv",
+            "type": "section",
+            "content": {
+                "title": "Upload a Scientific Paper",
+                "containerShadow": "0px 4px 11px -12px #000000",
+                "primaryTextColor": ""
+            },
+            "isCodeManaged": false,
+            "position": 3,
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "handlers": {},
+            "visible": true
+        },
+        "kup3lbyif2gphezb": {
+            "id": "kup3lbyif2gphezb",
+            "type": "columns",
+            "content": {},
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "sysxa0io5hwezgcv",
+            "handlers": {},
+            "visible": true
+        },
+        "kdox4wrrtt1mk4v2": {
+            "id": "kdox4wrrtt1mk4v2",
+            "type": "column",
+            "content": {
+                "title": "",
+                "width": "1",
+                "contentHAlign": "center",
+                "contentVAlign": "center"
+            },
+            "isCodeManaged": false,
+            "position": 2,
+            "parentId": "kup3lbyif2gphezb",
+            "handlers": {},
+            "visible": true
+        },
+        "v8dkwl1iari45tta": {
+            "id": "v8dkwl1iari45tta",
+            "type": "column",
+            "content": {
+                "width": "1",
+                "contentVAlign": "center",
+                "contentHAlign": "start"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "kup3lbyif2gphezb",
+            "handlers": {},
+            "visible": true
+        },
+        "xm72pf6yuzvu0yh6": {
+            "id": "xm72pf6yuzvu0yh6",
+            "type": "separator",
+            "content": {},
+            "isCodeManaged": false,
+            "position": 1,
+            "parentId": "kup3lbyif2gphezb",
+            "handlers": {},
+            "visible": true
+        },
+        "ei0sqh9o9x4n1s3c": {
+            "id": "ei0sqh9o9x4n1s3c",
+            "type": "fileinput",
+            "content": {
+                "label": "Select a PDF File",
+                "allowMultipleFiles": "no"
+            },
+            "isCodeManaged": false,
+            "position": 1,
+            "parentId": "v8dkwl1iari45tta",
+            "handlers": {
+                "ss-file-change": "handle_file_upload"
+            },
+            "visible": true,
+            "binding": {
+                "eventType": "ss-file-change",
+                "stateRef": "pdf_file"
+            }
+        },
+        "z6tx7yvaj1bepgoa": {
+            "id": "z6tx7yvaj1bepgoa",
+            "type": "button",
+            "content": {
+                "text": "Submit",
+                "buttonColor": "#"
+            },
+            "isCodeManaged": false,
+            "position": 3,
+            "parentId": "v8dkwl1iari45tta",
+            "handlers": {
+                "ss-click": "handle_submit"
+            },
+            "visible": true
+        },
+        "inm2egu55f0dwy2n": {
+            "id": "inm2egu55f0dwy2n",
+            "type": "sidebar",
+            "content": {
+                "startCollapsed": "yes"
+            },
+            "isCodeManaged": false,
+            "position": -2,
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "handlers": {},
+            "visible": true
+        },
+        "6v99a6evb5lv0ra7": {
+            "id": "6v99a6evb5lv0ra7",
+            "type": "dropdowninput",
+            "content": {
+                "label": "Text model (economical)",
+                "options": "{\n  \"google/gemini-flash-1.5\": \"Google: Gemini Flash 1.5\",\n  \"google/gemini-pro-1.5\": \"Google: Gemini Pro 1.5\",\n  \"google/gemini-pro\": \"Google: Gemini Pro 1.0\",\n  \"anthropic/claude-3-haiku\": \"Anthropic: Claude 3 Haiku\",\n  \"openai/gpt-4o\": \"OpenAI: GPT-4o\",\n  \"openai/gpt-3.5-turbo-instruct\": \"OpenAI: GPT-3.5 Turbo Instruct\"\n}"
+            },
+            "isCodeManaged": false,
+            "position": 4,
+            "parentId": "inm2egu55f0dwy2n",
+            "handlers": {
+                "ss-option-change": "handle_model_eco"
+            },
+            "visible": true,
+            "binding": {
+                "eventType": "ss-option-change",
+                "stateRef": "model_eco"
+            }
+        },
+        "nio6aknzgrqa9mrh": {
+            "id": "nio6aknzgrqa9mrh",
+            "type": "timer",
+            "content": {
+                "intervalMs": "10000",
+                "isActive": "no",
+                "cssClasses": ""
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "v19guwu3qbb08tgc",
+            "handlers": {
+                "ss-tick": "handle_timer_tick"
+            },
+            "visible": "processing"
+        },
+        "q28ys5hdnaq6tjoz": {
+            "id": "q28ys5hdnaq6tjoz",
+            "type": "text",
+            "content": {
+                "text": "@{processing_progress}"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "2u99zkusx08nneai",
+            "handlers": {},
+            "visible": "processing"
+        },
+        "mngfgf8q2fhyxzkv": {
+            "id": "mngfgf8q2fhyxzkv",
+            "type": "columns",
+            "content": {},
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "kdox4wrrtt1mk4v2",
+            "handlers": {},
+            "visible": "processing"
+        },
+        "v19guwu3qbb08tgc": {
+            "id": "v19guwu3qbb08tgc",
+            "type": "column",
+            "content": {
+                "width": "0.5",
+                "contentHAlign": "end",
+                "isSticky": "# Processing",
+                "isCollapsible": "no",
+                "startCollapsed": ""
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "mngfgf8q2fhyxzkv",
+            "visible": true
+        },
+        "2u99zkusx08nneai": {
+            "id": "2u99zkusx08nneai",
+            "type": "column",
+            "content": {
+                "width": "1"
+            },
+            "isCodeManaged": false,
+            "position": 1,
+            "parentId": "mngfgf8q2fhyxzkv",
+            "handlers": {},
+            "visible": true
+        },
+        "vp1ri71k8f1x3ai8": {
+            "id": "vp1ri71k8f1x3ai8",
+            "type": "dropdowninput",
+            "content": {
+                "label": "Text model (economical) fallback",
+                "options": "{\n  \"google/gemini-flash-1.5\": \"Google: Gemini Flash 1.5\",\n  \"google/gemini-pro-1.5\": \"Google: Gemini Pro 1.5\",\n  \"google/gemini-pro\": \"Google: Gemini Pro 1.0\",\n  \"anthropic/claude-3-haiku\": \"Anthropic: Claude 3 Haiku\",\n  \"openai/gpt-4o\": \"OpenAI: GPT-4o\",\n  \"openai/gpt-3.5-turbo-instruct\": \"OpenAI: GPT-3.5 Turbo Instruct\"\n}"
+            },
+            "isCodeManaged": false,
+            "position": 5,
+            "parentId": "inm2egu55f0dwy2n",
+            "handlers": {
+                "ss-option-change": "handle_model_eco_fallback"
+            },
+            "visible": true,
+            "binding": {
+                "eventType": "ss-option-change",
+                "stateRef": "model_eco_fallback"
+            }
+        },
+        "r6d9uouthv1110o8": {
+            "id": "r6d9uouthv1110o8",
+            "type": "dropdowninput",
+            "content": {
+                "label": "Vision model (best)",
+                "options": "{\n  \"google/gemini-pro-vision\": \"Google: Gemini Pro Vision 1.0\",\n  \"google/gemini-flash-1.5\": \"Google: Gemini Flash 1.5\",\n  \"anthropic/claude-3-haiku\": \"Anthropic: Claude 3 Haiku\",\n  \"anthropic/claude-3-sonnet\": \"Anthropic: Claude 3 Sonnet\",\n  \"openai/gpt-4o\": \"OpenAI: GPT-4o\"\n}"
+            },
+            "isCodeManaged": false,
+            "position": 6,
+            "parentId": "inm2egu55f0dwy2n",
+            "handlers": {
+                "ss-option-change": "handle_model_vision_best"
+            },
+            "visible": true,
+            "binding": {
+                "eventType": "ss-option-change",
+                "stateRef": "model_vision_best"
+            }
+        },
+        "k4zw8vp4aj05sob7": {
+            "id": "k4zw8vp4aj05sob7",
+            "type": "dropdowninput",
+            "content": {
+                "label": "Vision model (efficient)",
+                "options": "{\n  \"google/gemini-pro-vision\": \"Google: Gemini Pro Vision 1.0\",\n  \"google/gemini-flash-1.5google/gemini-flash-1.5\": \"Google: Gemini Flash 1.5\",\n  \"anthropic/claude-3-haiku\": \"Anthropic: Claude 3 Haiku\",\n  \"anthropic/claude-3-sonnet\": \"Anthropic: Claude 3 Sonnet\",\n  \"openai/gpt-4o\": \"OpenAI: GPT-4o\"\n}"
+            },
+            "isCodeManaged": false,
+            "position": 7,
+            "parentId": "inm2egu55f0dwy2n",
+            "handlers": {
+                "ss-option-change": "handle_model_vision_efficient"
+            },
+            "visible": true,
+            "binding": {
+                "eventType": "ss-option-change",
+                "stateRef": "model_vision_efficient"
+            }
+        },
+        "4aocvbonxnvhqvgv": {
+            "id": "4aocvbonxnvhqvgv",
+            "type": "dropdowninput",
+            "content": {
+                "label": "Text model (best)",
+                "options": "{\n  \"google/gemini-flash-1.5\": \"Google: Gemini Flash 1.5\",\n  \"google/gemini-pro-1.5\": \"Google: Gemini Pro 1.5\",\n  \"google/gemini-pro\": \"Google: Gemini Pro 1.0\",\n  \"anthropic/claude-3-haiku\": \"Anthropic: Claude 3 Haiku\",\n  \"openai/gpt-4o\": \"OpenAI: GPT-4o\",\n  \"openai/gpt-3.5-turbo-instruct\": \"OpenAI: GPT-3.5 Turbo Instruct\"\n}"
+            },
+            "isCodeManaged": false,
+            "position": 3,
+            "parentId": "inm2egu55f0dwy2n",
+            "handlers": {
+                "ss-option-change": "handle_model_best"
+            },
+            "visible": true,
+            "binding": {
+                "eventType": "ss-option-change",
+                "stateRef": "model_best"
+            }
+        },
+        "2glgdmmfn11drqpl": {
+            "id": "2glgdmmfn11drqpl",
+            "type": "textinput",
+            "content": {
+                "label": "Subject (expertise)",
+                "placeholder": "biomedical",
+                "passwordMode": "no"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "v8dkwl1iari45tta",
+            "visible": true,
+            "binding": {
+                "eventType": "ss-change",
+                "stateRef": "expertise_field"
+            }
+        },
+        "hj1q9hxpvuurnfji": {
+            "id": "hj1q9hxpvuurnfji",
+            "type": "message",
+            "content": {
+                "message": "@{pdf_notification}"
+            },
+            "isCodeManaged": false,
+            "position": 2,
+            "parentId": "v8dkwl1iari45tta",
+            "handlers": {},
+            "visible": "pdf_notification"
+        },
+        "qmdxccop623xbt4i": {
+            "id": "qmdxccop623xbt4i",
+            "type": "message",
+            "content": {
+                "message": "@{submit_notification}"
+            },
+            "isCodeManaged": false,
+            "position": 4,
+            "parentId": "v8dkwl1iari45tta",
+            "handlers": {},
+            "visible": "submit_notification"
+        },
+        "wkfvby70s26gvrln": {
+            "id": "wkfvby70s26gvrln",
+            "type": "textinput",
+            "content": {
+                "label": "OpenRouter API key",
+                "placeholder": "sk-or-****",
+                "passwordMode": "yes"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "inm2egu55f0dwy2n",
+            "handlers": {},
+            "visible": true,
+            "binding": {
+                "eventType": "ss-change",
+                "stateRef": "openrouter_api_key"
+            }
+        },
+        "mb6m11rlhah74qhh": {
+            "id": "mb6m11rlhah74qhh",
+            "type": "textinput",
+            "content": {
+                "label": "Adobe PDF services client ID",
+                "placeholder": ""
+            },
+            "isCodeManaged": false,
+            "position": 1,
+            "parentId": "inm2egu55f0dwy2n",
+            "handlers": {},
+            "visible": true,
+            "binding": {
+                "eventType": "ss-change",
+                "stateRef": "pdf_services_client_id"
+            }
+        },
+        "xbto3vdq18zzkg6i": {
+            "id": "xbto3vdq18zzkg6i",
+            "type": "textinput",
+            "content": {
+                "label": "Adobe PDF services client secret",
+                "passwordMode": "yes"
+            },
+            "isCodeManaged": false,
+            "position": 2,
+            "parentId": "inm2egu55f0dwy2n",
+            "handlers": {},
+            "visible": true,
+            "binding": {
+                "eventType": "ss-change",
+                "stateRef": "pdf_services_client_secret"
+            }
+        }
+    }
+}
